@@ -1,17 +1,17 @@
 modLoader="javafml"
-loaderVersion="[26,)"
+loaderVersion="[1,)"
 license="MIT"
 
 [[mods]]
 modId="rose_progression"
-version="1.0.0"
+version="26.1.2"
 displayName="Rose Progression Fix"
 description="Wymusza poziom Rose do wydobywania rud diamentu z predkoscia 7.0."
 
 [[dependencies.rose_progression]]
 modId="neoforge"
 type="required"
-versionRange="[26.1,)"
+versionRange="[1,)"
 ordering="NONE"
 side="BOTH"
 
