@@ -38,8 +38,8 @@ public class RoseProgressionMod {
             event.modify(rosePickaxe, builder -> {
                 Tool roseTool = new Tool(
                         List.of(
-                                Tool.Rule.deniesDrops(BuiltInRegistries.BLOCK.getOrCreateTag(INCORRECT_FOR_ROSE_TOOL)),
-                                Tool.Rule.minesAndDrops(BuiltInRegistries.BLOCK.getOrCreateTag(BlockTags.MINEABLE_WITH_PICKAXE), 7.0F)
+                                Tool.Rule.deniesDrops(INCORRECT_FOR_ROSE_TOOL),
+                                Tool.Rule.minesAndDrops(BlockTags.MINEABLE_WITH_PICKAXE, 7.0F)
                         ),
                         1.0F,
                         1
