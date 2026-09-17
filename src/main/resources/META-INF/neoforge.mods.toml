@@ -6,7 +6,7 @@ license="MIT"
 modId="rose_progression"
 version="26.1.2"
 displayName="Rose Progression Fix"
-description="Wymusza poziom Rose do wydobywania rud diamentu z predkoscia 7.0."
+description="Fix dla kilofa Rose"
 
 [[dependencies.rose_progression]]
 modId="neoforge"
