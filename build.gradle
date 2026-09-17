@@ -3,7 +3,8 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.78'
 }
 
-version = '1.0.0'
+// Tutaj wpisujesz wersję swojego moda, widoczną w grze i nazwie pliku:
+version = '26.1.2'
 group = 'com.modpack.roseprogression'
 
 base {
@@ -17,6 +18,7 @@ java {
 }
 
 neoForge {
+    // Tutaj silnik pobiera środowisko Minecrafta 1.21.1, na którym bazuje paczka:
     version = '21.1.108'
 
     mods {
