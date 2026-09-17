@@ -17,7 +17,7 @@ java {
 }
 
 neoForge {
-    version = '26.1.2.108'
+    version = '21.1.108'
 
     mods {
         rose_progression {
