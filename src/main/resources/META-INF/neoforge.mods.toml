@@ -16,6 +16,13 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.rose_progression]]
+modId="minecraft"
+type="required"
+versionRange="[1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.rose_progression]]
 modId="progression_reborn"
 type="required"
 versionRange="[0,)"
